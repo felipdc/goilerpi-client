@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-const HostUrl string = "http://localhost:4000"
+const HostUrl string = "http://localhost:4000/v1"
 
 type Client struct {
 	HostURL    string
